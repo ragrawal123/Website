@@ -30,11 +30,11 @@
 	</div>
 	<div id = "mac">Mac</div>
 	<div class = "text">
-		<p>Go to <a href="https://python.org/downloads/" id = "link"><u>Python.org</u></a> and select Download Python 3.9.5 for Mac OS X.</p>
+		<p>Go to <a target = "_blank" href="https://python.org/downloads/" id = "link"><u>Python.org</u></a> and select Download Python 3.9.5 for Mac OS X.</p>
 	</div>
 	<div id = "windows">Windows</div>
 	<div class = "text">
-		<p>Go to <a href="https://python.org/downloads/" id = "link"><u>Python.org</u></a> and select Download Python 3.9.5 for Windows.</p>
+		<p>Go to <a target = "_blank" href="https://python.org/downloads/" id = "link"><u>Python.org</u></a> and select Download Python 3.9.5 for Windows.</p>
 	</div>
 
 	<div id = "run">
@@ -53,7 +53,7 @@
 	<div id = "windows">Windows</div>
 	<div class = "text">
 		<p>
-			Windows is a bit more complicated. It doesn't inherently have a nice system to run on like Terminal, but we can install one. Here we are going to install the Windows Subsystem for Linux. First what we want to do is install the Linux subsystem. The steps to do so can be found on the Microsoft Docs: <a href = "https://docs.microsoft.com/en-us/windows/wsl/install-win10" id = "link"><u>Install WSL.</u></a> We recommend using Ubuntu 20.04 when it prompts you to choose an app to run the subsystem on from the Microsoft Store. 
+			Windows is a bit more complicated. It doesn't inherently have a nice system to run on like Terminal, but we can install one. Here we are going to install the Windows Subsystem for Linux. First what we want to do is install the Linux subsystem. The steps to do so can be found on the Microsoft Docs: <a target = "_blank" href = "https://docs.microsoft.com/en-us/windows/wsl/install-win10" id = "link"><u>Install WSL.</u></a> We recommend using Ubuntu 20.04 when it prompts you to choose an app to run the subsystem on from the Microsoft Store. 
 			<br><br>Once you are done installing, you will need to open the Ubuntu app up and create a username or password. Keep in mind that when typing in the password it doesn't show anything, but the characters are there so be mindful. Once done, check that Python is installed by running the command <code>python3</code>. The terminal should go into a Python shell with the characters <code>>>></code> showing. To quit out of the Python interactive, type in <code>quit()</code>. You should be able to then <code>cd</code> into your desired directory and run the program using <code>python3 programName.py</code>. Again, to check whether the program is in the directory you can do <code>ls</code>.
 		</p>
 	</div>
@@ -61,7 +61,33 @@
 	<div id = "github">
 		<h1 id = "python">Github:</h1>
 	</div>
+	<div class = "text" id = "git">
+		<p>Github is a space for programmers to collaborate with eachother and work together on the difficult projects that you will have to take on in the ATCS class. Github is a space where you can upload the files of your code so that you and your team can look at it without having to ask the initial coder to email you the files. Basically, you or someone else on your team can code on their own time, and then upload that code to the repository for others in the team to look at later. There are multiple steps to get set up on Github, here is what they are: <br><br>
+			
+			1. Go to <a target="_blank" href = "https://github.com" id = "link">Github</a>  and sign up for an account. If you already have one log in. <br><br>
+			
+			2. Once done, at the top left corner you'll see the word "Repositories". On the right of that click the New button to create a new repository that you will use for your code. Create a repository name that represents what type of project you are coding. On the bottom check the box that says "Add a README file" because you can edit that and use it as a design document or an explanation of your project. Create your repository. <br><br>
+			
+			3. This part gets a little complicated. Open whatever you use to run your program[Terminal or WSL]. Here you now need to clone your repository to your desktop so that you can <code>cd</code> and make your program file there. To do so you will need to go into your repository on Github, and under the tab "Code" you will need to copy the link that is there. Go back to your [Terminal or WSL] and run the command <code>git clone [copied repository link]</code>. After it's done cloning, go into the repository by running <code>cd [repository name]</code>.<br><br>
+			
+			4. After cd-ing into your repository, you want to create your program file. To do so, run <code>touch programName.py</code>. Note that it does not have to be a python file, it could be java or html or css etc. To check you created the file in your repository, run <code>ls</code>. You now created your program file and you can use your choice of text editor to get started! Remember that when you are saving your program file for the first time, save it in your repository. <br><br>
+			
+			5. After doing some coding, you probably want to upload your file to github so that your last commit is saved or your teammates could also look at the code. First make sure you are in your repository in your [Terminal or WSL] and <code>ls</code> to make sure your file is there. You then want to run these 3 commands in order: <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;1. <code>git add fileName</code> 
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;2. <code>git commit -m"some message"</code> 
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;3. <code>git push</code><br> It will prompt for your username and password, but after that your file should be on Github!
+	</div>
 	
+	<div id = "go">
+		<div>
+			<a href="index.html" id = "back"><strong>Back</strong></a>
+		</div>
+	</div>
+	<div id = "go2">
+		<div>
+			<a href = "getting-started.html" id = "next"><strong>Next</strong>&rarr;</a>
+		</div>
+	</div>
 
 </body>
 </html>

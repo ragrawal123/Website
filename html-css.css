@@ -103,3 +103,84 @@ nav {
 	margin-left: 0.5px;
 	font-size: 46px;
 }
+
+#both {
+	width: 39vw;
+	height: 25vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	padding-top: 140px;
+}
+
+#uses {
+	font-family: Courier;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	align-items: center;
+	display: flex;
+	padding-left: 10px;
+}
+
+#html {
+	width: 13vw;
+	height: 4vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	font-family: Courier;
+	font-style: normal;
+	font-size: 28px;
+	padding-left: 40px;
+	text-decoration: underline;
+	color: #550000;
+}
+
+#css {
+	width: 11vw;
+	height: 5vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	font-family: Courier;
+	font-style: normal;
+	font-size: 28px;
+	padding-left: 40px;
+	text-decoration: underline;
+	color: #550000;
+}
+
+.text {
+	font-family: Courier;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: black;
+	padding-left: 60px;
+	align-items: center;
+	justify-content: left;
+	display: flex;
+	width: 94vw;
+}
+
+#link {
+	text-decoration: underline;
+	color: #1017C8;
+}
+
+
+#sources {
+	display:flex;
+	height: 8vh;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	padding-top: 8px;
+	padding-left: 3px;
+
+}

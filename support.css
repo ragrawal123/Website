@@ -1,0 +1,260 @@
+/* Reset stuff */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Courier;
+	vertical-align: baseline;
+	box-sizing: border-box;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My actual code */
+
+.mainbg {
+	position: relative;
+	width: 1440px;
+	height: 700px;
+	background: #D4B982;
+}
+
+nav {
+	position: absolute;
+	font-size: 22px;
+	width: 1440px;
+	height: 140px;
+	background: #DDCDCD;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#navbar {
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+}
+
+.banner {
+	width: 1440px;
+	display:flex;
+	align-items:center;
+}
+
+.navbar {
+	color: black;
+	font-size: 20px;
+	font-family: Courier;
+	font-weight: bold;
+	margin-right: 4px;
+	margin-left: 4px;
+	text-decoration: none;
+}
+
+#support {
+	margin-right:14px;
+}
+
+#tag1 {
+	margin-left: 8px;
+	font-size: 60px;
+}
+
+#tag3 {
+	margin-left: 0.5px;
+	font-size: 46px;
+}
+
+#header {
+	width: 27vw;
+	height: 25vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	padding-top: 140px;
+}
+
+#support {
+	font-family: Courier;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	align-items: center;
+	display: flex;
+	padding-left: 10px;
+}
+
+#content-header {
+	width: 30vw;
+	height: 4vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	font-family: Courier;
+	font-style: normal;
+	font-size: 30px;
+	padding-left: 40px;
+	text-decoration: underline;
+	color: #550000;
+}
+
+#credit {
+	display:flex;
+	height: 8vh;
+	flex-direction:row;
+	justify-content:left;
+	align-items:center;
+	padding-top: 8px;
+	padding-left: 3px;
+}
+
+.text {
+	font-family: Courier;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: black;
+	padding-left: 60px;
+	align-items: center;
+	justify-content: left;
+	display: flex;
+	width: 94vw;
+}
+
+#link {
+	text-decoration: underline;
+	color: #1017C8;
+}
+
+code {
+	color: #14FF00;
+}
+
+#go {
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	display: flex;
+	float: left;
+}
+
+#back {
+	text-decoration: none;
+	color: black;
+
+	font-family: Courier;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+
+	line-height: 45px;
+	align-items: left;
+	text-align: center;
+	display: flex;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.image {
+	width:700px;
+	height:225px;
+	display: flex;
+	padding-left: 370px;
+}
+
+#image0 {
+	border-color: black;
+	border: solid;
+	border-radius: 5px;
+	border-width: 2px;
+}
+#image1 {
+	margin-left:20px;
+	border-color: black;
+	border: solid;
+	border-radius: 5px;
+	border-width: 2px;
+}
+
+#image2 {
+	margin-left:20px;
+	border-color: black;
+	border: solid;
+	border-radius: 5px;
+	border-width: 2px;
+}
+
+#image3 {
+	margin-left:20px;
+	border-color: black;
+	border: solid;
+	border-radius: 5px;
+	border-width: 2px;
+}
+
+#go2 {
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	display: flex;
+	float: right;
+}
+
+#next {
+	text-decoration: none;
+	color: black;
+
+	font-family: Courier;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+
+	line-height: 25px;
+	align-items: right;
+	text-align: center;
+	display: flex;
+	padding-top: 20px;
+	padding-right: 20px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel = "stylesheet" href="projects.css">
+	<title>ATCS Guide</title>
+</head>
+<body class="mainbg">
+	<header id = "navbar">
+		<nav class="banner">
+			<div id = "tag1">ATCS
+				<div id = "tag3">Guide</div>
+			</div>
+
+			<div>
+				<a class = "navbar" href="index.html"> Home </a>
+				<a class = "navbar" href="about.html"> About </a>
+				<a class = "navbar" href="getting-started.html" > Getting Started </a>
+				<a class = "navbar" href="html-css.html"> HTML/CSS </a>
+				<a class = "navbar" href="python.html" > Python </a>
+				<a class = "navbar" href="sql.html"> SQL </a>
+				<a class = "navbar" href="projects.html" style = "color: #646AFF;"> Projects </a>
+				<a class = "navbar" href="support.html"> Support </a>
+			</div>
+		</nav>
+	</header>
+
+	<div id = "header">
+		<div id = "projects"><h1>Projects:</h1></div>
+	</div>
+	
+	<div id = "content-header">Cryptography</div>
+	<div class = "text">
+		<p>
+			This cryptography project was our first project of the year, where we had to cipher some different input text with three different cryptosystems, Caeser Cipher, Vigenere Cipher, and the Merkle-Hellman Knapsack Cryptosystem. The Caesar cipher was easiest to implement while the MHKC cipher was the hardest. This project was just meant to act as a jumpstart to the class, where we could touch up on some Python skills or learn new ones:<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;1. Official project description:<a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1UQEg8gRlMC6O8qQ52eSujLh3ib7oHz-H7OBv9rk4UEc/edit?usp=sharing">Cryptography</a>. Try it out.<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;2. Our solution: <a target = "_blank" id = "link" href = "https://github.com/ragrawal123/cryptography.git">Solutions</a>. [Note, code can still have bugs]<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;3. <a target = "_blank" id = "link" href = "https://en.wikipedia.org/wiki/Caesar_cipher">Description of Caesar</a><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;4. <a target = "_blank" id = "link" href = "https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher">Description of Vigenere</a><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;5. <a target = "_blank" id = "link" href = "https://cryptography.fandom.com/wiki/Merkle%E2%80%93Hellman_knapsack_cryptosystem">Description of MHKC</a>
+		</p>
+	</div>
+
+	<div id = "content-header">NPuzzle</div>
+	<div class = "text">
+		<p>
+			NPuzzle was our second project of the year and the difficulty also proved to increase as we did this project. Basically this project was a puzzle, a 15-square puzzle that had numbers 1-15 in a randomized order. Learn more about that <a target="_blank" id = "link" href = "https://en.wikipedia.org/wiki/15_puzzle">here</a>. The goal of our project was to create a solver for this puzzle, meaning the program takes the puzzle and then organizes the numbers top-bottom left-right until there is a hole in that last square. Through that, we had to use three different search algorithms that would solve the puzzle and then also optimize them to make them fast:<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;1. Official project description: <a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1P6ii3Q78LO6qAEovgz6sKWUlZNA4zqNezdDECPQAQI0/edit?usp=sharing">NPuzzle</a>. Try it out. <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;2. Our solution: <a target = "_blank" id = "link" href = "https://github.com/ragrawal123/NPuzzle.git">Solutions</a>. [Note, do not run DFS it will crash]<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;3. <a target = "_blank" id = "link" href = "https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/">BFS versus DFS</a>
+		</p>
+	</div>
+
+	<div id = "content-header">Percolation Game</div>
+	<div class = "text">
+		<p>
+			The Percolation game was a sort of contest between the ATCS class where we had our teams build this game where players can play against one another in a vertex-removal game. What that means is we have vertices from a Binomial Random Graph, and the goal of the game is to remove all the vertices. A player loses the game once there are no more vertices of their color to remove. The way the program worked is that we had a benchmark of a "player" that randomly chose to remove one of their vertices at a time, and our goal was to make the program beat said "player". The contest was, whoever had the highest probability or efficiency of beating the "player" was the winner and won a gift card:<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;1. Official project description: <a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1XSb7IGal5ZTfYjgq1MhJdFJzriHu4Sm2b4QXAWpeJ38/edit?usp=sharing">Percolation Games</a>. Try it out.<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;2. Our solution: <a target = "_blank" id = "link" href = "https://github.com/ragrawal123/game.git">Solutions</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;3. <a target = "_blank" id = "link" href = "https://en.wikipedia.org/wiki/Percolation_theory">Percolation Theory</a>
+		</p>
+	</div>
+
+	<div id = "content-header">Build-Your-Own-Shell</div>
+	<div class = "text">
+		<p>
+			The Build-Your-Own-Shell project was by far the hardest project of the year. The shell you use is essentially what we had to build on a much smaller scale. We had to make a Linux shell using Python that could run commands like <code>cd</code>, <code>exit</code>, <code>pwd</code>, <code>jobs</code>, <code>fg</code>, and <code>bg</code>. The behavior of our Linux shell had to match the <code>/bin/sh</code> program we can run on our shells. This project was the hardest because there were a lot of new things that we didn't know about. As a result, this project required a lot of time to research how Linux shells work and how the code works. Not only that, but all Linux shells could be different, and there is a lot to implement, so for this project we had to create a Design Document. Basically what a Design Document shows is all the details we want to implement into our program, such as the design of our shell and the optimization of it. Even though it took some work, the design document helped a lot in writing the code: <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;1. Official document description: <a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1HOWh5qMvTpJSxM4e8qc4VdnQTAkt5sFYNnrDxmm1Xc0/edit?usp=sharing">BYOS</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;2. <a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1Th_Adz-F9tLg6LaTCUbe8iQxKcSO3oHdFOhv09LKml8/edit?usp=sharing">Our Design Doc</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;3. Our solution: <a target = "_blank" id = "link" href = "https://github.com/ragrawal123/shell.git">Solutions</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;4. Useful source: <a target = "_blank" id = "link" href = "https://danishpraka.sh/2018/09/27/shell-in-python.html">Python Shell</a>
+		</p>
+	</div>
+
+	<div id = "content-header">Final Project</div>
+	<div class = "text">
+		<p>
+			The Final Project was, as the name suggests, our final project for our year in ATCS. And you're looking right at it. The purpose of our final project was to learn HTML and CSS because they are useful to know and then do some exercises with them. But instead of doing an exercise, we decided to make this website to recap our year in ATCS and display some resources that we used to succeed in the class. The reason that we chose to do an ATCS Guide is because we wanted future students to have a support system that they can use to kickstart their journey through ATCS. With this website, students can look at our past projects, as well as learn the basics of HTML/CSS, Python, and SQL. The way this project worked was s that we had a proposal document, a design document, our website design, our core work(website), and a detailed video explanation:<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;1. <a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1ZmvEpG0W6qeej_umDIJF9yFJQLZ4OiiD5cKQ5rrNe5c/edit?usp=sharing">Project Proposal</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;2. <a target = "_blank" id = "link" href = "https://docs.google.com/document/d/1AOWL4nMsXX6KJgJRTf2gWFNsrw65eo-FpzUUlmDMH3U/edit?usp=sharing">Design Document</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;3. <a target = "_blank" id = "link" href = "https://www.figma.com/file/cbixeiN0qMaCw2x7Cegy6y/ATCS-Guide-Template?node-id=61%3A0">Figma Design</a><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;4. <a target = "_blank" id = "link" href = "https://www.youtube.com">Video Explanation</a><br>
+			For the resources we used to learn HTML/CSS and do our webpage, check out the <a target="_blank" id = "link" href="html-css.html">HTML/CSS</a> page.
+		</p>
+	</div>
+
+	<div id = "go">
+		<div>
+			<a href="sql.html" id = "back"><strong>Back</strong></a>
+		</div>
+	</div>
+	<div id = "go2">
+		<div>
+			<a href = "support.html" id = "next"><strong>Next</strong>&rarr;</a>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
